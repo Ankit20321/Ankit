@@ -1,0 +1,77 @@
+{
+  "companies": [
+    {
+      "name": "Accounting (Inflow)",
+      "secondar_navigation": "true",
+      "projects": [
+        {
+          "name": " Quotes Preparation",
+          "link": "/ai-development"
+        },
+        {
+          "name": "invoice Generation",
+          "link": "/mobile-app"
+        }
+      ]
+    },
+    {
+      "name": "HealthTech Corp.",
+      "secondar_navigation": "false",
+      "link": "/HealthTech-Corp"  ,
+      "projects": [
+       
+      ]
+    },
+    {
+      "name": "Digital Horizons",
+      "secondar_navigation": "true",
+      "projects": [
+        {
+          "name": "Website Redesign",
+          "link": "/website-redesign"
+        },
+        {
+          "name": "SEO Optimization",
+          "link": "/seo-optimization"
+        }
+      ]
+    },
+    {
+      "name": "Project Team Member assigned",
+      "secondar_navigation": "false",
+      "link": "/green-energy"  
+    },
+    {
+      "name": "HealthTech Corp.",
+      "secondar_navigation": "false",
+      "link": "/HealthTech-Corp"  ,
+      "projects": [
+        {
+          "name": "Website Redesign",
+          "link": "/website-redesign"
+        },
+        {
+          "name": "SEO Optimization",
+          "link": "/seo-optimization"
+        }
+      ]
+    },
+    {
+      "name": "EcoTech Ltd.",
+      "secondar_navigation": "false",
+      "link": "/ecotech"  
+    },
+ 
+    {
+      "name": "Finance Guru Inc.",
+      "secondar_navigation": "false",
+      "link": "/finance-guru" 
+    },
+    
+    {
+      "name": "Innovative Solutions",
+      "secondar_navigation": "false",
+      "link": "/innovative-solutions"
+    }
+  ]
+}

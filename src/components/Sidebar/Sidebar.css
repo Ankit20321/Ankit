@@ -1,0 +1,53 @@
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  top: 70px;
+  padding: 20px;
+  height: 100vh;
+  position: fixed;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  background-color: #f4f4f4;
+
+}
+
+.sidebarList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebarItem {
+  margin: 15px 0;
+}
+
+.sidebarItem a {
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-item.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.Mui-selected {
+  background-color: white;
+  color: black;
+}
+
+.Mui-selected:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.active {
+  color: red;
+  font-weight: bold;
+}
+
+.inactive {
+  color: black;
+}
