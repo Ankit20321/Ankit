@@ -1,15 +1,17 @@
+/* Sidebar Styles */
 .sidebar {
   width: 200px;
   background-color: #f4f4f4;
   top: 70px;
   padding: 20px;
-  height: 100vh;
+  height: 100vh;  /* Adjust for header height */
+  overflow-y: auto;            /* Enable vertical scrolling */
+  left: 0;
   position: fixed;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-  background-color: #f4f4f4;
-
 }
 
+/* Navigation Styles */
 .sidebarList {
   list-style-type: none;
   padding: 0;
@@ -24,6 +26,7 @@
   color: #333;
 }
 
+/* Dropdown & Active Styles */
 .dropdown-item {
   padding: 10px;
   cursor: pointer;
@@ -34,6 +37,7 @@
   color: white;
 }
 
+/* Material UI Styles */
 .Mui-selected {
   background-color: white;
   color: black;
@@ -50,4 +54,18 @@
 
 .inactive {
   color: black;
+}
+
+/* Custom Scrollbar Styles */
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

@@ -1,21 +1,26 @@
-import Homepage from './components/Homepage'
-import { Routes, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react';
-import Header from './components/Sidebar/Header';
-import { BrowserRouter } from 'react-router-dom'
-import Sidebar from './components/Sidebar/PrimarySidebar';
+import Layout from './components/Layout/Layout';
+import Homepage from './components/Homepage';
+import Expericence from './components/Pages/Experience';
+import Certification from './components/Pages/Certification';
+import Education from './components/Pages/Education';
+
 const App = () => {
   return (
-      <div>
-    
-        <Header />
-        <Sidebar />
-          <Routes>
-              <Route path='/' element={<Homepage />} />
-            </Routes>
-
-        </div>
+    <Router>
+    <Routes>
+      {/* Parent Route with Layout */}
+      <Route path="/" element={<Layout />}>
+        {/* Child Routes */}
+        <Route path='/home' element={<Homepage />} />
+        <Route path="/experience"  element={<Expericence/>} /> 
+        <Route path="/education" element={<Education/>} />
+        <Route path="/certifications" element={<Certification/>} />
+      </Route>
+    </Routes>
+  </Router>
     )
 }
 
-export default App
+export default App;

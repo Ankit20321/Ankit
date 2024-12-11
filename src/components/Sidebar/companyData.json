@@ -1,8 +1,9 @@
 {
   "companies": [
     {
-      "name": "Accounting (Inflow)",
-      "secondar_navigation": "true",
+      "name": "Home",
+      "secondar_navigation": "false",
+       "link": "/home",
       "projects": [
         {
           "name": " Quotes Preparation",
@@ -15,16 +16,9 @@
       ]
     },
     {
-      "name": "HealthTech Corp.",
+      "name": "Skills",
+      "link": "/skills",
       "secondar_navigation": "false",
-      "link": "/HealthTech-Corp"  ,
-      "projects": [
-       
-      ]
-    },
-    {
-      "name": "Digital Horizons",
-      "secondar_navigation": "true",
       "projects": [
         {
           "name": "Website Redesign",
@@ -37,14 +31,14 @@
       ]
     },
     {
-      "name": "Project Team Member assigned",
+      "name": "Experience",
       "secondar_navigation": "false",
-      "link": "/green-energy"  
+      "link": "/experience"
     },
     {
-      "name": "HealthTech Corp.",
+      "name": "Education.",
       "secondar_navigation": "false",
-      "link": "/HealthTech-Corp"  ,
+      "link": "/education"  ,
       "projects": [
         {
           "name": "Website Redesign",
@@ -57,21 +51,29 @@
       ]
     },
     {
-      "name": "EcoTech Ltd.",
+      "name": "Projects.",
       "secondar_navigation": "false",
-      "link": "/ecotech"  
+      "link": "/projects"  
     },
  
     {
-      "name": "Finance Guru Inc.",
+      "name": " Certifications",
       "secondar_navigation": "false",
-      "link": "/finance-guru" 
+      "link": "/certifications" 
     },
     
     {
-      "name": "Innovative Solutions",
+      "name": "Achievements & Awards",
       "secondar_navigation": "false",
-      "link": "/innovative-solutions"
+      "link": "/achievements"
+    },
+    {
+      "name": "Contact ME",
+      "secondar_navigation": "false",
+      "link": "/contact-me"  ,
+      "projects": [
+       
+      ]
     }
   ]
 }

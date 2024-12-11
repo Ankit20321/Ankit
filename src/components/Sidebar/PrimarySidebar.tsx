@@ -58,7 +58,7 @@ const Sidebar = () => {
   const companies = data?.companies || [];
 
   return (
-    <Card className="sidebar">
+    <Card className="sidebar" style={{overflow:'auto',}}>
       {companies.length === 0 ? (
         <div>No data available. Please try again.</div>
       ) : (

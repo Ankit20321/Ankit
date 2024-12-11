@@ -1,0 +1,8 @@
+/* Certification.css */
+.my-custom-card {
+    /* Your custom styles here */
+    border: 2px solid #1976d2;
+    border-radius: 8px;
+    position: relative;
+    left:130px
+  }
