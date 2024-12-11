@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from './components/Layout/Layout';
 import Homepage from './components/Homepage';
 import Expericence from './components/Pages/Experience';
-import Certification from './components/Pages/Certification';
+import Certification from './components/Pages/Certification/Certification';
 import Education from './components/Pages/Education';
 
 const App = () => {
