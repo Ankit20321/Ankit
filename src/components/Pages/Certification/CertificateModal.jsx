@@ -44,7 +44,6 @@ const CertificateModal = ({ certificate, onClose }) => {
               top: "0px",
             }}
           />
-          <h2>Certificate of Completion</h2>
           <p>This is to certify that</p>
           <h3>{certificate.name}</h3>
           <p>has successfully completed the course</p>

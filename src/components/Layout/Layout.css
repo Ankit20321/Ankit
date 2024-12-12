@@ -19,6 +19,7 @@
 
 .card {
     max-width: 245px;
+    background-color: #FFFFFF;
     /* height: 245px; */
     border: 1px solid #e0e0e0;
     border-radius: 4px;
@@ -38,7 +39,7 @@
   
   .card-title {
     margin: 0 0 8px 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   
   .card-description {
@@ -64,3 +65,49 @@
   .learn-more-button:hover {
     text-decoration: underline;
   }
+
+
+
+  .custom-frame {
+    position: relative;
+    width: 84%; /* Adjust the frame size */
+    height: 80vh; /* Adjust the frame height */
+    margin: auto;
+    left:100px;
+    top:10px;
+    background: white;
+    border: 2px solid blanchedalmond; /* Gold border */
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .custom-frame::before,
+  .custom-frame::after {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to right, #1c1c1c, #333, #1c1c1c); /* Black gradient for the design */
+    height: 100%;
+    width: 50px;
+    z-index: 1;
+  }
+  
+  .custom-frame::before {
+    top: 0;
+    left: 0;
+    transform: skewX(-20deg); /* Skew for angular effect */
+  }
+  
+  .custom-frame::after {
+    top: 0;
+    right: 0;
+    transform: skewX(20deg); /* Skew for angular effect */
+  }
+  
+  .frame-content {
+    position: relative;
+    z-index: 2; /* Ensures content is above the design */
+    padding: 20px; /* Adjust padding for content inside */
+    height: 100%;
+    text-align: center; /* Center align content */
+  }
+  

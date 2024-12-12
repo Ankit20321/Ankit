@@ -10,9 +10,13 @@ const Layout = () => {
     <Header />
     <Sidebar />
     <div className='container'>
+      <div className="custom-frame">
+        <div className='frame-content'>
     <main>
       <Outlet />  {/* Renders child routes here */}
     </main>
+    </div>
+    </div>
     </div>
   </>
   )
