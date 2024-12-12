@@ -94,13 +94,13 @@
   .custom-frame::before {
     top: 0;
     left: 0;
-    transform: skewX(-20deg); /* Skew for angular effect */
+    transform: skewX(-0deg); /* Skew for angular effect */
   }
   
   .custom-frame::after {
     top: 0;
     right: 0;
-    transform: skewX(20deg); /* Skew for angular effect */
+    transform: skewX(0deg); /* Skew for angular effect */
   }
   
   .frame-content {
