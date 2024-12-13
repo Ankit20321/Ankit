@@ -71,8 +71,9 @@
   .custom-frame {
     position: relative;
     width: 84%; /* Adjust the frame size */
-    height: 80vh; /* Adjust the frame height */
+    height: 90vh; /* Adjust the frame height */
     margin: auto;
+    position: relative;
     left:100px;
     top:10px;
     background: white;

@@ -13,16 +13,19 @@ const Certification = () => {
 
   return (
     <div className="certification-container">
-      {certificateData.certificates.map((certificate, index) => (
-        <MediaCard
-          key={index}
-          image={certificate.imageUrl}
-          title={certificate.course}
-          // description={`Awarded to ${certificate.name} by ${certificate.instructor} on ${certificate.date}`}
-          onLearnMore={() => handleLearnMore(certificate)}
-          className="my-custom-card"
-        />
-      ))}
+      <div className='certification-heading'>Certification</div>
+      <div className="certification-scroller">
+        {certificateData.certificates.map((certificate, index) => (
+          <MediaCard
+            key={index}
+            image={certificate.imageUrl}
+            title={certificate.course}
+            description={`Awarded to ${certificate.name} by ${certificate.instructor} on ${certificate.date}`}
+            onLearnMore={() => handleLearnMore(certificate)}
+            className="my-custom-card"
+          />
+        ))}
+      </div>
       {selectedCertificate && (
         <CertificateModal
           certificate={selectedCertificate}
