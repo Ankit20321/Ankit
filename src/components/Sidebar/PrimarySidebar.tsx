@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Sidebar.css";
-import {  ListItem, ListItemButton, Collapse } from "@mui/material";
+import { ListItem, ListItemButton, Collapse } from "@mui/material";
 import companyData from "./companyData.json"; // Adjust the path as necessary
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
@@ -58,29 +58,35 @@ const Sidebar = () => {
   const companies = data?.companies || [];
 
   return (
-    <Card className="sidebar" style={{overflow:'auto',}}>
+    <Card className="sidebar" style={{ overflow: 'auto' }}>
       {companies.length === 0 ? (
         <div>No data available. Please try again.</div>
       ) : (
         companies.map((company, index) => (
-          <div key={index}>
+          <div
+            key={index}
+            className="sidebar-item"
+            onClick={() => {
+              if (company.secondar_navigation === "false") {
+                // Use Link for navigation to prevent page refresh
+                handleProjectClick(company.name);
+              } else {
+                handleClick(company.name);
+                handleProjectClick(company.name);
+              }
+            }}
+          >
             {company.secondar_navigation === "false" ? (
               /* If secondary navigation is false, the company name will act as a link */
-              <ListItemButton>
+              <ListItemButton component={Link} to={company.link || "#"}>
                 <ListItem>
-                  <Link to={company.link || "#"}>{company.name}</Link> {/* Navigate to the company link */}
+                  {company.name}
                 </ListItem>
               </ListItemButton>
             ) : (
               <>
                 {/* If the company has secondary navigation enabled (true) */}
-                <ListItemButton
-                  selected={activeProject === company.name}
-                  onClick={() => {
-                    handleClick(company.name);
-                    handleProjectClick(company.name);
-                  }}
-                >
+                <ListItemButton selected={activeProject === company.name}>
                   <ListItem>
                     {company.name}
                     {company.secondar_navigation === "true" && (
@@ -90,11 +96,7 @@ const Sidebar = () => {
                 </ListItemButton>
                 {/* Render projects if available */}
                 {company.secondar_navigation === "true" && (
-                  <Collapse
-                    in={openCompany === company.name}
-                    timeout="auto"
-                    unmountOnExit
-                  >
+                  <Collapse in={openCompany === company.name} timeout="auto" unmountOnExit>
                     <Second projects={company.projects || []} /> {/* Pass projects to Second */}
                   </Collapse>
                 )}
