@@ -2,9 +2,9 @@ import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react';
 import Layout from './components/Layout/Layout';
 import Homepage from './components/Homepage';
-import Expericence from './components/Pages/Experience';
+import Expericence from './components/Pages/Experience/Experience';
 import Certification from './components/Pages/Certification/Certification';
-import Education from './components/Pages/Education';
+import Education from './components/Pages/Education/Education';
 
 const App = () => {
   return (

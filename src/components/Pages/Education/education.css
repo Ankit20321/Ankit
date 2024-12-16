@@ -1,0 +1,297 @@
+
+
+ 
+
+  .desktop4 .my-education {
+    color: black;
+    font-family: "Roboto", Helvetica;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 2.16px;
+    line-height: 45.8px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    width: 294px;
+    text-align: center;
+  }
+
+  .desktop4 .group-15 {
+    height: 616px;
+    left: 100px;
+    position: absolute;
+    top: 100px;
+    width: 1000px;
+    border-radius: 21px;
+    
+  }
+
+  .desktop4 .overlap-7 {
+    border-radius: 21px;
+    height: 618px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 1017px;
+  }
+  
+  .desktop4 .rectangle-6 {
+    background-color: #000000;
+    border: 1px solid;
+    border-color: #7a7a7a;
+    border-radius: 21px;
+    box-shadow: inset 318px 756px 0px 495px #817e7e40;
+    height: 618px;
+    left: 40%;
+    transform: translateX(-50%);
+    opacity: 1;
+    position: absolute;
+    top: -30px;
+    width: 1017px;
+  }
+  
+  .desktop4 .text-wrapper-12 {
+    color: #a7a9ac;
+    font-family: "Roboto", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 10px;
+    letter-spacing: 1.4px;
+    line-height: 25.4px;
+    position: absolute;
+    top: 149px;
+    width: 838px;
+  }
+
+  .desktop4 .text-wrapper-13 {
+    color: #a7a9ac;
+    font-family: "Roboto", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 124px;
+    letter-spacing: 1.4px;
+    line-height: 25.4px;
+    position: absolute;
+    top: 341px;
+    white-space: nowrap;
+    width: 771px;
+  }
+  
+  .desktop4 .text-wrapper-14 {
+    color: #a7a9ac;
+    font-family: "Roboto", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 124px;
+    letter-spacing: 1.4px;
+    line-height: 25.4px;
+    position: absolute;
+    top: 525px;
+    white-space: nowrap;
+    width: 771px;
+  }
+  
+  .desktop4 .acropolis-institute {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 10px;
+    letter-spacing: 1.68px;
+    line-height: 30.5px;
+    position: absolute;
+    top: 93px;
+    width: 838px;
+  }
+  
+  .desktop4 .vidyasagar-school {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    left: 124px;
+    letter-spacing: 1.68px;
+    line-height: 30.5px;
+    position: absolute;
+    top: 305px;
+    width: 838px;
+  }
+  
+  .desktop4 .pratibhasthali {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    left: 124px;
+    letter-spacing: 1.68px;
+    line-height: 30.5px;
+    position: absolute;
+    top: 489px;
+    width: 838px;
+  }
+
+  .desktop4 .text-wrapper-15 {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 80px;
+    letter-spacing: 1.4px;
+    line-height: 25.4px;
+    position: absolute;
+    top: 41px;
+    white-space: nowrap;
+    width: 194px;
+  }
+  
+  .desktop4 .text-wrapper-16 {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 80px;
+    letter-spacing: 1.4px;
+    line-height: 25.4px;
+    position: absolute;
+    top: 253px;
+    white-space: nowrap;
+    width: 194px;
+  }
+  
+  .desktop4 .text-wrapper-17 {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 80px;
+    letter-spacing: 1.4px;
+    line-height: 25.4px;
+    position: absolute;
+    top: 437px;
+    white-space: nowrap;
+    width: 194px;
+  }
+  
+  .desktop4 .ellipse {
+    background-color: #55e6a5;
+    border-radius: 6.5px;
+    height: 13px;
+    left: 0px;
+    position: absolute;
+    top: 47px;
+    width: 13px;
+  }
+  
+  .desktop4 .ellipse-2 {
+    background-color: #55e6a5;
+    border-radius: 6.5px;
+    height: 13px;
+    left: 0px;
+    position: absolute;
+    top: 258px;
+    width: 13px;
+  }
+
+  .desktop4 .ellipse-3 {
+    background-color: #55e6a5;
+    border-radius: 6.5px;
+    height: 13px;
+    left: 0px;
+    position: absolute;
+    top: 439px;
+    width: 13px;
+  }
+  
+  .desktop4 .line-6 {
+    height: 199px;
+    left: 6px;
+    object-fit: cover;
+    position: absolute;
+    top: 60px;
+    width: 1px;
+  }
+  
+  .desktop4 .line-7 {
+    height: 170px;
+    left: 6px;
+    object-fit: cover;
+    position: absolute;
+    top: 269px;
+    width: 1px;
+  }
+  
+  .desktop4 .line-8 {
+    height: 117px;
+    left: 6px;
+    object-fit: cover;
+    position: absolute;
+    top: 452px;
+    width: 1px;
+  }
+  
+
+  .desktop4 .vector-7 {
+    height: 20px;
+    left: 29px;
+    position: absolute;
+    top: 45px;
+    width: 20px;
+  }
+  
+  .desktop4 .vector-8 {
+    height: 20px;
+    left: 29px;
+    position: absolute;
+    top: 254px;
+    width: 20px;
+  }
+  
+  .desktop4 .vector-9 {
+    height: 20px;
+    left: 29px;
+    position: absolute;
+    top: 436px;
+    width: 20px;
+  }
+  .desktop4 .text-wrapper-18 {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 124px;
+    letter-spacing: 1.4px;
+    line-height: 25.4px;
+    position: absolute;
+    top: 621px;
+    white-space: nowrap;
+    width: 194px;
+  }
+
+  .desktop4 .ellipse-4 {
+    background-color: #55e6a5;
+    border-radius: 6.5px;
+    height: 13px;
+    left: 0px;
+    position: absolute;
+    top: 627px;
+    width: 13px;
+  }
+
+  .desktop4 .line-9 {
+    height: 50px;
+    left: 46px;
+    object-fit: cover;
+    position: absolute;
+    top: 640px;
+    width: 1px;
+  }
+
+  .desktop4 .vector-10 {
+    height: 20px;
+    left: 91px;
+    position: absolute;
+    top: 625px;
+    width: 20px;
+  }
