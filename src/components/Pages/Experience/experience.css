@@ -1,25 +1,18 @@
-.desktop3 {
-    background-color: #02050a;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    top: 0px;
-  }
+
   
   .desktop5 .div {
     background-color: #02050a;
-    height: 7586px;
+    height: 86px;
     position: relative;
-    width: 1440px;
+    width: 140px;
   }
   
   .desktop5 .overlap5 {
-    height: 1025px;
+    height: 125px;
     left: 178px;
     position: relative;
     top: -10px;
-    width: 932px;
+    width: 32px;
   }
 
   .desktop5 .group-16 {
@@ -31,22 +24,28 @@
   }
   
   .desktop5 .overlap-8 {
-    background-color: #09101a;
-    height: 647px;
-    position: relative;
-    width: 1070px;
+    border: 1px solid;
+    border-color: #7a7a7a;
+    border-radius: 21px;
+    box-shadow: inset 318px 756px 0px 495px #817e7e40;
+    height: 618px;
+    left: 40%;
+    transform: translateX(-50%);
+    opacity: 1;
+    position: absolute;
+    width: 1017px;
   }
   
-  .desktop5 .my-experience {
+.my-experience {
     color: #55e6a5;
     font-family: "Roboto", Helvetica;
     font-size: 36px;
     font-weight: 500;
-    left: 372px;
+    left: 72px;
     letter-spacing: 2.16px;
     line-height: 45.8px;
     position: absolute;
-    top: 69px;
+    top: 0px;
     white-space: nowrap;
     width: 326px;
   }

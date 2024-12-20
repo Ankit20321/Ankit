@@ -3,7 +3,7 @@
  
 
   .desktop4 .my-education {
-    color: black;
+    /* color: black; */
     font-family: "Roboto", Helvetica;
     font-size: 36px;
     font-weight: 500;
@@ -38,7 +38,7 @@
   }
   
   .desktop4 .rectangle-6 {
-    background-color: #000000;
+    /* background-color: #000000; */
     border: 1px solid;
     border-color: #7a7a7a;
     border-radius: 21px;
@@ -48,7 +48,6 @@
     transform: translateX(-50%);
     opacity: 1;
     position: absolute;
-    top: -30px;
     width: 1017px;
   }
   
@@ -70,7 +69,7 @@
     font-family: "Roboto", Helvetica;
     font-size: 20px;
     font-weight: 600;
-    left: 124px;
+    left: -50px;
     letter-spacing: 1.4px;
     line-height: 25.4px;
     position: absolute;
@@ -84,7 +83,7 @@
     font-family: "Roboto", Helvetica;
     font-size: 20px;
     font-weight: 600;
-    left: 124px;
+    left: -50px;
     letter-spacing: 1.4px;
     line-height: 25.4px;
     position: absolute;
@@ -94,7 +93,7 @@
   }
   
   .desktop4 .acropolis-institute {
-    color: #ffffff;
+    color: black;
     font-family: "Roboto", Helvetica;
     font-size: 18px;
     font-weight: 600;
@@ -107,11 +106,11 @@
   }
   
   .desktop4 .vidyasagar-school {
-    color: #ffffff;
+    color: black;
     font-family: "Roboto", Helvetica;
     font-size: 22px;
     font-weight: 600;
-    left: 124px;
+    left: -120px;
     letter-spacing: 1.68px;
     line-height: 30.5px;
     position: absolute;
@@ -120,11 +119,11 @@
   }
   
   .desktop4 .pratibhasthali {
-    color: #ffffff;
+    color: black;
     font-family: "Roboto", Helvetica;
     font-size: 22px;
     font-weight: 600;
-    left: 124px;
+    left: -120px;
     letter-spacing: 1.68px;
     line-height: 30.5px;
     position: absolute;
@@ -133,7 +132,7 @@
   }
 
   .desktop4 .text-wrapper-15 {
-    color: #ffffff;
+    color: black;
     font-family: "Roboto", Helvetica;
     font-size: 20px;
     font-weight: 500;
@@ -147,7 +146,7 @@
   }
   
   .desktop4 .text-wrapper-16 {
-    color: #ffffff;
+    color: black;
     font-family: "Roboto", Helvetica;
     font-size: 20px;
     font-weight: 500;
@@ -161,7 +160,7 @@
   }
   
   .desktop4 .text-wrapper-17 {
-    color: #ffffff;
+    color: black;
     font-family: "Roboto", Helvetica;
     font-size: 20px;
     font-weight: 500;
@@ -256,7 +255,7 @@
     width: 20px;
   }
   .desktop4 .text-wrapper-18 {
-    color: #ffffff;
+    color: black;
     font-family: "Roboto", Helvetica;
     font-size: 20px;
     font-weight: 500;
