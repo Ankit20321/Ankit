@@ -6,7 +6,7 @@ import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
 import Second from './SecondSidebar';
 import Card from '@mui/material/Card';
-import { Link } from "react-router-dom"; // Import Link
+import { NavLink } from "react-router-dom"; // Import NavLink
 
 interface Project {
   name: string;
@@ -68,7 +68,6 @@ const Sidebar = () => {
             className="sidebar-item"
             onClick={() => {
               if (company.secondar_navigation === "false") {
-                // Use Link for navigation to prevent page refresh
                 handleProjectClick(company.name);
               } else {
                 handleClick(company.name);
@@ -78,7 +77,7 @@ const Sidebar = () => {
           >
             {company.secondar_navigation === "false" ? (
               /* If secondary navigation is false, the company name will act as a link */
-              <ListItemButton component={Link} to={company.link || "#"}>
+              <ListItemButton component={NavLink} to={company.link || "#"} activeClassName="active-link">
                 <ListItem>
                   {company.name}
                 </ListItem>

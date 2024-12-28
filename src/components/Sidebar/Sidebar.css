@@ -11,6 +11,10 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
+.active-link {
+  color: red; /* Change this to your desired active link color */
+  font-weight: bold; /* Optional: make the active link bold */
+}
 /* Navigation Styles */
 .sidebarList {
   list-style-type: none;
@@ -18,7 +22,16 @@
 }
 
 .sidebarItem {
-  margin: 15px 0;
+  cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+  padding: 10px; /* Add padding for better click area */
+  margin: 5px 0; /* Add margin for spacing between items */
+  background-color: #f0f0f0; /* Background color for the item */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.sidebarItem:hover {
+  background-color: #e0e0e0; /* Change background color on hover */
 }
 
 .sidebarItem a {
