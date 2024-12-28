@@ -3,7 +3,7 @@
     {
       "name": "Home",
       "secondar_navigation": "false",
-       "link": "/home",
+       "link": "/",
       "projects": [
         {
           "name": " Quotes Preparation",
