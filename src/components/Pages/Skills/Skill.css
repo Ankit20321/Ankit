@@ -1,0 +1,121 @@
+.skills-section {
+    padding: 4rem 2rem;
+    perspective: 1000px;
+    /* background: linear-gradient(145deg, #f0f0f0, #ffffff); */
+}
+
+.skills-title {
+    color: black;
+    text-align: center;
+    font-size: 2.5rem;
+    position: relative;
+    top: -60px;
+    margin-bottom: 3rem;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateZ(50px);
+    transition: transform 0.3s ease;
+}
+
+.skills-title:hover {
+    transform: translateZ(70px) scale(1.05);
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    position: relative;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    top: -100px;
+}
+
+.skill-card {
+    background: linear-gradient(145deg, #2a2a2a, #1a1a1a);
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 20px 20px 60px #0a0a0a,
+               -20px -20px 60px #2a2a2a;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.skill-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transform: translateX(-100%);
+    transition: 0.5s;
+}
+
+.skill-card:hover {
+    transform: translateZ(50px) rotateX(10deg) rotateY(10deg);
+    box-shadow: 30px 30px 80px #0a0a0a,
+               -30px -30px 80px #2a2a2a;
+}
+
+.skill-card:hover::before {
+    transform: translateX(100%);
+}
+
+.skill-content h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    transform: translateZ(30px);
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover .skill-content h3 {
+    transform: translateZ(60px);
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.skill-level {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    height: 12px;
+    margin-bottom: 0.5rem;
+    position: relative;
+    transform: translateZ(25px);
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover .skill-level {
+    transform: translateZ(45px);
+}
+
+.skill-progress {
+    background: linear-gradient(90deg, #00ff88, #00ffee);
+    border-radius: 10px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.8s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.7);
+}
+
+.skill-card:hover .skill-progress {
+    box-shadow: 0 0 30px rgba(0, 255, 136, 0.9);
+    filter: brightness(1.2);
+}
+
+.skill-percentage {
+    color: #fff;
+    font-size: 1rem;
+    transform: translateZ(20px);
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover .skill-percentage {
+    transform: translateZ(40px);
+    color: #00ff88;
+}
