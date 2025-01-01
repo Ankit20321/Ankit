@@ -42,13 +42,13 @@
     border: 1px solid;
     border-color: #7a7a7a;
     border-radius: 21px;
-    box-shadow: inset 318px 756px 0px 495px #817e7e40;
+    box-shadow: inset 318px 956px 0px 595px #817e7e40;
     height: 618px;
-    left: 40%;
-    transform: translateX(-50%);
+    left: 50%;
+    transform: translateX(-54%);
     opacity: 1;
     position: absolute;
-    width: 1017px;
+    width: 917px;
   }
   
   .desktop4 .text-wrapper-12 {
