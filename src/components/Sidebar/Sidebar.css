@@ -9,10 +9,11 @@
   left: 0;
   position: fixed;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  z-index: 1;
 }
 
 .active-link {
-  color: red; /* Change this to your desired active link color */
+  color: red; /* Change this to your desired activxe link color */
   font-weight: bold; /* Optional: make the active link bold */
 }
 /* Navigation Styles */
